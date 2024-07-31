@@ -173,3 +173,77 @@ main {
 .options ul li:nth-child(1) {
   margin-left: 0;
 }
+
+.colors li {
+  width: 2em;
+  height: 2em;
+  background: red;
+  border-radius: 50%;
+  border: 3px #f6f6f6 solid;
+}
+
+.colors .color-active {
+  border-color: #111;
+}
+
+.bar-bottom {
+  background: #fff;
+  padding: 1.5em;
+}
+
+.bar-bottom div, .bar-bottom a {
+  display: flex;
+  align-items: center;
+}
+
+.bar-bottom span {
+  cursor: pointer;
+}
+
+.controls {
+  justify-content: space-evenly;
+}
+
+.arrows span {
+  font-size: 2.5em;
+}
+
+.pagination {
+  display: flex;
+  margin: 0 0.5em;
+}
+
+.pag {
+  background: #ccc;
+  width: 3em;
+  height: 0.2em;
+  margin: 0 7px;
+  transition: 0.3s;
+}
+
+.pag-active {
+  background: #111;
+}
+
+.arr-left {
+  transform: rotate(180deg);
+}
+
+.cart {
+  justify-self: center;
+}
+
+.cart button {
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 1.3em 2em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin-right: 1.5em;
+  transition: 0.3s;
+}
+
+.cart button:hover {
+  background: #000;
+}
