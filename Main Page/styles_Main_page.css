@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: #06141B;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #11212D;
+    padding: 10px 20px;
+    z-index: 1000;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.logo img {
+    height: 50px;
+    display: inline-block;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.content {
+    padding: 80px 20px; /* Adjust padding to account for the fixed navbar */
+}
+
+
+.first-slide {
+    display: flex;
+    margin-top: 20vh;
+    margin-left: 15vw;
+}
+
+.txt1 {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;  
+}
+
+.summer {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.collecton {
+    color: orange;
+    margin-top: 0px;
+}
+
+.shoe1img {
+    height: 40vh;
+    margin-left: 30vh;
+
+}
