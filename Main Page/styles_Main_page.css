@@ -116,3 +116,30 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
 }
+
+/* Container for the image strip */
+.image-strip {
+    display: flex;
+    gap: 10px; /* Space between images */
+    justify-content: center; /* Center the image strip */
+    margin-bottom: 10vh;
+}
+
+/* Styling each image container */
+.image-strip a {
+    flex: 1; /* Make all image containers take up equal space */
+    overflow: hidden; /* Hide overflow to ensure image scaling doesn't affect layout */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Default image styling */
+.image-strip img {
+    width: 75%; /* Image takes full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Expand image on hover */
+.image-strip a:hover img {
+    transform: scale(1.2); /* Scale image to 120% on hover */
+}
