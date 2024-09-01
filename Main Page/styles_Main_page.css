@@ -3,6 +3,7 @@ body {
     background-color: #000000;
 }
 
+
 .navbar {
     position: fixed;
     top: 0;
@@ -66,7 +67,7 @@ body {
     font-family: "Matemasie", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 70px;  
+    font-size: 60px;  
 }
 
 .summer {
@@ -85,7 +86,7 @@ body {
 
 }
 
- .parallax {
+.parallax {
   
     background-image: url("/Main Page/Sources/pr1.jpeg");
   
@@ -97,6 +98,39 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 } 
+
+/* .parallax_2 {
+  
+  background-image: url("/Main Page/Sources/prx2.jpg");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}  */
+
+
+.parallax_3 {
+  
+  background-image: url("/Main Page/Sources/prx2.jpg");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+} 
+
+
 
 .abtd {
     background-color: rgba(97, 113, 203, 0.5); /* White background with 50% opacity */
@@ -331,142 +365,267 @@ body {
     margin-bottom: 10px;
   }
 
-  /* #import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-  *
-  {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-  }
-  body
-  {
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
-      min-height: 100vh;
-      background: #333;
-  }
-  footer
-  {
-      position: relative;
-      width: 100%;
-      background: #3586ff;
-      min-height: 100px;
-      padding: 20px 50px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-  }
-  footer .social_icons,
-  footer .menu
-  {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 10px 0;
-      flex-wrap: wrap;
-  }
-  footer .social_icons li,
-  footer .menu li
-  {
-      list-style: none;
-  
-  }
-  footer .social_icons li a,
-  footer .menu li a
-  {
-      font-size: 2em;
-      color:#fff;
-      margin: 0 10px;
-      display: inline-block;
-      transition: 0.5s;
-  }
-  footer .social_icons li a:hover
-  {
-      transform: translateY(-10px);
-  }
-  footer .menu li a
-  {
-      font-size: 1.2em;
-      color:#fff;
-      margin: 0 10px;
-      display: inline-block;
-      transition: 0.5s;
-      text-decoration: none;
-      opacity: 0.75;
-  }
-  footer .menu li a:hover
-  {
-      opacity: 1;
-  }
-  footer p
-  {
-      color: #fff;
-      text-align: center;
-      margin-top: 15px;
-      margin-bottom: 10px;
-      font-size: 1.1em;
-  }
-  footer .wave
-  {
-      position: absolute;
-      top: -100px;
-      left: 0;
-      width: 100%;
-      height: 100px;
-      background: url(/Main Page/Sources/wave.png);
-      background-size: 1000px 100px;
-  }
-  footer .wave#wave1
-  {
-      z-index: 1000;
-      opacity: 1;
-      bottom: 0;
-      animation: animateWave 4s linear infinite;
-  }
-  footer .wave#wave2
-  {
-      z-index: 999;
-      opacity: 0.5;
-      bottom: 10px;
-      animation: animateWave_02 4s linear infinite;
-  }
-  footer .wave#wave3
-  {
-      z-index: 1000;
-      opacity: 0.2;
-      bottom: 15px;
-      animation: animateWave 3s linear infinite;
-  }
-  footer .wave#wave4
-  {
-      z-index: 999;
-      opacity: 0.7;
-      bottom: 20px;
-      animation: animateWave_02 3s linear infinite;
-  }
-  @keyframes animateWave
-  {
-      0%
-      {
-          background-position-x: 1000px;
-      }
-      100%
-      {
-          background-position-x: 0px;
-      }
-  }
-  @keyframes animateWave_02
-  {
-      0%
-      {
-          background-position-x: 0px;
-      }
-      100%
-      {
-          background-position-x: 1000px;
-      }
-  } */
+   /* price comparison  */
+
+  .price-comparison {
+    background: linear-gradient(180deg, #233A4E, #9C6DB0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 900px;
+    box-sizing: border-box; /* Include padding and border in the element's width and height */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 0; /* Remove any default margin */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Center the table horizontally */
+}
+
+thead th {
+    background: linear-gradient(45deg, #a18cd1, #fbc2eb);
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+tbody tr:nth-child(even) {
+    background: linear-gradient(45deg, #014871, #A0EBCF );
+}
+
+tbody tr:nth-child(odd) {
+    background: linear-gradient(45deg, #23494A, #BFFFC7);
+}
+
+tbody td {
+    padding: 20px;
+    color: #333;
+    font-size: 15px;
+    text-align: center;
+}
+
+tbody img {
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+tbody a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+tbody a:hover {
+    text-decoration: underline;
+}
+
+tbody tr:hover {
+    background: linear-gradient(45deg, #e0c3fc, #8ec5fc);
+    cursor: pointer;
+}
+
+tbody tr {
+    margin-bottom: 10px;
+}
+
+.custm_shoesh{
+  color: white;
+  /* margin-top: 7vh; */
+}
+
+
+/* custom shoes */
+
+.container{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+.imgContainer{
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.slide_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 30px 0 30px;
+}
+
+.styledimg{
+  position: relative;
+  height: 370px;
+  width: 240px;
+  filter: saturate(10%);
+  transition: 0.7s;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.button{
+  position: absolute;
+  width: 240px;
+  height: 370px;
+  transition: 0.7s;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.button:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#slider1:target ~ .imgContainer #img1,
+#slider1:target ~ .imgContainer #button1{
+  width: 390px;
+  height: 600px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+
+#slider2:target ~ .imgContainer #img2,
+#slider2:target ~ .imgContainer #button2{
+  width: 390px;
+  height: 600px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+
+#slider3:target ~ .imgContainer #img3,
+#slider3:target ~ .imgContainer #button3{
+  width: 390px;
+  height: 600px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+
+#slider4:target ~ .imgContainer #img4,
+#slider4:target ~ .imgContainer #button4{
+  width: 390px;
+  height: 600px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+
+#slider5:target ~ .imgContainer #img5,
+#slider5:target ~ .imgContainer #button5{
+  width: 390px;
+  height: 600px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+
+#slider6:target ~ .imgContainer #img6,
+#slider6:target ~ .imgContainer #button6{
+  width: 390px;
+  height: 600px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+
+#slider7:target ~ .imgContainer #img7,
+#slider7:target ~ .imgContainer #button7{
+  width: 390px;
+  height: 600px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+
+
+#slider1:target ~ .imgContainer{
+  left: 60%;
+}
+#slider2:target ~ .imgContainer{
+  left: 40%;
+}
+#slider3:target ~ .imgContainer{
+  left: 20%;
+}
+#slider4:target ~ .imgContainer{
+  left: 0%;
+}
+#slider5:target ~ .imgContainer{
+  left: -20%;
+}
+#slider6:target ~ .imgContainer{
+  left: -40%;
+}
+#slider7:target ~ .imgContainer{
+  left: -60%;
+}
+
+.imgx{height: 370px;}
+
+
+.costomshoebuttom {
+    background-color: #4CAF50; 
+    border: none;              
+    color: white;             
+    padding: 15px 32px;        
+    text-align: center;        
+    text-decoration: none;     
+    display: inline-block;     
+    font-size: 16px;           
+    margin: 4px 2px;           
+    cursor: pointer;           
+    border-radius: 12px;       
+    transition-duration: 0.4s; 
+}
+
+/* Add a hover effect */
+.costomshoebuttom:hover {
+    background-color: white;   
+    color: black;              
+    border: 2px solid #4CAF50; 
+}
+
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer a {
+  color: #ff9800;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .social-icons a {
+  margin: 0 15px;
+  font-size: 1.2em;
+}
+
+.footer p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
